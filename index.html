@@ -1,61 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" type="text/css">
-    <title>Kenny's Timetable</title>
-</head>
-<body>
-    <header>
-        <h1>Kenny's Timetable</h1>
-    </header>
-    <main>
-        <table border="1">
-            <tr>
-                <td id="corner-cell"></td>
-                <th scope="col">8h - 10h</th>
-                <th scope="col">10h - 12h</th>
-                <th scope="col">12h - 13h</th>
-                <th scope="col">13h - 15h</th>
-                <th scope="col">15h - 17h</th>
-            </tr>
-            <tr id="monday">
-                <th scope="row">Lundi</th>
-                <td colspan="2" class="empty-cell"></td>
-                <td rowspan="6" id="lunch-break"></td>
-                <td colspan="2" class="empty-cell"></td>
-            </tr>
-            <tr id="tuesday">
-                <th scope="row">Mardi</th>
-                <td>Informatiques de Gestion I</td>
-                <td>Statistique Descriptive</td>
-                <td class="empty-cell"></td>
-                <td>Management Général (Cours)</td>
-            </tr>
-            <tr id="wednesday">
-                <th scope="row">Mercredi</th>
-                <td>Sociologie</td>
-                <td>Management Général (TD)</td>
-                <td>Arabe II</td>
-                <td class="empty-cell"></td>
-            </tr>
-            <tr id="thursday">
-                <th scope="row">Jeudi</th>
-                <td class="empty-cell"></td>
-                <td>Comptabilité Générale II</td>
-                <td>TEC Fondamentales II</td>
-                <td>Anglais II</td>
-            </tr>
-            <tr id="friday">
-                <th scope="row">Vendredi</th>
-                <td class="empty-cell"></td>
-                <td>Économie de Maroc</td>
-                <td>Macro-Économie</td>
-                <td class="empty-cell"></td>
-            </tr>
-        </table>
-    </main>
-</body>
-</html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Handlee&family=Mali:wght@300;400;500&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <title>Kenny's Timetable</title>
+    </head>
+    <body>
+        <header>
+            <h1>Kenny's School Diary</h1>
+        </header>
+        <main>
+            <section id="school-timetable">
+                <h2>School Timetable</h2>
+                <table id="timetable" cellspacing="0">
+                    <tr>
+                        <th id="corner-cell"></th>
+                        <th scope="col">8h - 10h</th>
+                        <th scope="col">10h - 12h</th>
+                        <th scope="col">12h - 13h</th>
+                        <th scope="col">13h - 15h</th>
+                        <th scope="col">15h - 17h</th>
+                    </tr>
+                    <tr id="monday">
+                        <th scope="row">Lundi</th>
+                        <td colspan="2" class="empty-cell"></td>
+                        <td rowspan="6" id="lunch-break"></td>
+                        <td colspan="2" class="empty-cell"></td>
+                    </tr>
+                    <tr id="tuesday">
+                        <th scope="row">Mardi</th>
+                        <td>Informatiques de Gestion I</td>
+                        <td>Statistique Descriptive</td>
+                        <td class="empty-cell"></td>
+                        <td>Management Général (Cours)</td>
+                    </tr>
+                    <tr id="wednesday">
+                        <th scope="row">Mercredi</th>
+                        <td>Sociologie</td>
+                        <td>Management Général (TD)</td>
+                        <td>Arabe II</td>
+                        <td class="empty-cell"></td>
+                    </tr>
+                    <tr id="thursday">
+                        <th scope="row">Jeudi</th>
+                        <td class="empty-cell"></td>
+                        <td>Comptabilité Générale II</td>
+                        <td>TEC Fondamentales II</td>
+                        <td>Anglais II</td>
+                    </tr>
+                    <tr id="friday">
+                        <th scope="row">Vendredi</th>
+                        <td class="empty-cell"></td>
+                        <td>Économie de Maroc</td>
+                        <td>Macro-Économie</td>
+                        <td class="empty-cell"></td>
+                    </tr>
+                    <tr id="saturday">
+                        <th scope="row">Samedi</th>
+                        <td class="empty-cell" colspan="2"></td>
+                        <td class="empty-cell" colspan="2"></td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+    </body> 
+    </html>

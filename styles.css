@@ -1,14 +1,50 @@
-h1 {
-  text-align: center;
+:root {
+	--lavender-blue: #d4c2fc;
+	--blue-bell: #998fc7;
+	--raisin-black: #28262c;
 }
 
-table {
-  margin-left: auto;
-  margin-right: auto;
+body {
+	background-color: #28262c;
+	color: #d4c2fc;
+	font-family: 'Mali', cursive;
+	font-weight: 300;
+}
+
+h1 {
+	font-family: 'Tangerine', cursive;
+	font-size: 7em;
+	text-align: center;
+}
+
+#school-timetable {
+	width: 90%;
+	margin: 0 auto;
+}
+
+h2 {
+	font-family: 'Handlee', cursive;
+	font-weight: 400;
+	font-size: 3em;
+	margin-bottom: 0.2em;
+}
+
+#timetable {
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid;
 }
 
 th,
 td {
-  padding: 10px;
-  text-align: center;
+	padding: 15px;
+	text-align: center;
+	border: 1px solid;
+}
+
+th {
+	background-color: #998fc7;
+	border-color: #28262c;
+	color: white;
 }
