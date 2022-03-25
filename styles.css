@@ -1,19 +1,22 @@
-:root {
-	--lavender-blue: #d4c2fc;
-	--blue-bell: #998fc7;
-	--raisin-black: #28262c;
+body {
+	font-family: 'DM Sans', cursive;
+	font-weight: 300;
+	margin: 0 0 auto 0;
 }
 
-body {
-	background-color: #28262c;
-	color: #d4c2fc;
-	font-family: 'Mali', cursive;
-	font-weight: 300;
+header {
+	background-color: black;
+	color: white;
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 7em;
 }
 
 h1 {
+	margin: 0;
+	padding: 0.5em;
 	font-family: 'Tangerine', cursive;
-	font-size: 7em;
+	font-size: 7.5em;
 	text-align: center;
 }
 
@@ -23,10 +26,11 @@ h1 {
 }
 
 h2 {
-	font-family: 'Handlee', cursive;
+	font-family: 'Mali', cursive;
 	font-weight: 400;
-	font-size: 3em;
-	margin-bottom: 0.2em;
+	font-size: 3.5em;
+	text-indent: 0.5em;
+	margin-bottom: 0.75em;
 }
 
 #timetable {
@@ -44,7 +48,7 @@ td {
 }
 
 th {
-	background-color: #998fc7;
-	border-color: #28262c;
+	background-color: black;
 	color: white;
+	border-color: black;
 }
