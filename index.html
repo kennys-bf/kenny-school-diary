@@ -12,19 +12,19 @@
     </head>
     <body>
         <header>
-            <h1>Kenny's School Diary</h1>
+            <h1><img src="img/left-header.png" alt="flower" title="Apology Flowers" class="title-image">Kenny's School Diary<img src="img/right-header.png" alt="flower" title="Apology Flowers" class="title-image"></h1>
         </header>
         <main>
             <section id="school-timetable">
                 <h2>School Timetable</h2>
                 <table id="timetable" cellspacing="0">
                     <tr>
-                        <th id="corner-cell"></th>
+                        <th class="corner-cell" id="corner-cell-top-left"></th>
                         <th scope="col">8h - 10h</th>
                         <th scope="col">10h - 12h</th>
                         <th scope="col">12h - 13h</th>
                         <th scope="col">13h - 15h</th>
-                        <th scope="col">15h - 17h</th>
+                        <th scope="col" id="corner-cell-top-right">15h - 17h</th>
                     </tr>
                     <tr id="monday">
                         <th scope="row">Lundi</th>
@@ -62,8 +62,8 @@
                     </tr>
                     <tr id="saturday">
                         <th scope="row">Samedi</th>
-                        <td class="empty-cell" colspan="2"></td>
-                        <td class="empty-cell" colspan="2"></td>
+                        <td class="empty-cell" id="corner-cell-bottom-left" colspan="2"></td>
+                        <td class="empty-cell" id="corner-cell-bottom-right" colspan="2"></td>
                     </tr>
                 </table>
             </section>
