@@ -27,7 +27,7 @@ h1 {
 
 #school-timetable {
 	width: 90%;
-	margin: 0 auto 3em auto;
+	margin: 0 auto 4em auto;
 }
 
 h2 {
@@ -59,4 +59,22 @@ th {
 	background-color: #090302;
 	color: #c8bfc7;
 	border-color: #090302;
+}
+
+#upcoming-exams {
+	width: 90%;
+	margin: 0 auto 3em auto;
+}
+
+#exams {
+	list-style-image: url(img/list-arrows.png);
+	list-style-position: inside;
+}
+
+li {
+	font-size: 1.5em;
+	font-weight: 100;
+	width: 70%;
+	list-style-type: none;
+	text-align: center;
 }
